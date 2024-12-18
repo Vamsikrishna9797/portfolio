@@ -172,7 +172,7 @@ nav{
     background: url("./assests/banner-bg-1.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-repeat: no-repeat;
 }
 
 /* ----- FEATURED TEXT BOX ----- */
@@ -794,9 +794,23 @@ footer{
     .contact-info{
         margin-left: 2%;
     }
+    .top-header span{
+        margin-left: 5%;
+    }
+    .footer-menu{
+        font-size: 0.9rem;
+    }
+    .typedText{
+        font-size: 1.5rem;
+    }
+    .fixed-text{
+        font-size: 1.5rem;
+    }
+    .scroll-icon-box{
+        margin:-5%;
+    } 
     
 }
-
 
 /* General Section Styling */
 .work-experience-box {
@@ -824,6 +838,11 @@ footer{
 }
 
 /* Work Experience Cards */
+#work{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
 .work-experience-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -871,10 +890,8 @@ footer{
     color: #444;
     line-height: 1.6;
     text-align: justify;
-
     
 }
-
 /* See All Experiences Button */
 .work-experience-btn {
     text-align: center;
@@ -941,22 +958,26 @@ footer{
 }
 
 h4 {
-    font-size: 1.5em;
-    color: #555;
-    text-align: center;
+    font-size: 1.5rem;
+    color: #f50b0b;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-bottom:1rem ;
 }
 
 h2 {
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align:justify;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
 }
 
 p {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
     line-height: 1.5;
     color: #666;
+    font-family: sans-serif;
 }
 
 .skill {
@@ -964,7 +985,7 @@ p {
 }
 
 .skill-title {
-    font-weight: bold;
+    font-weight:500px;
     margin-bottom: 5px;
 }
 
@@ -1023,6 +1044,17 @@ p {
     justify-content: space-around;
     gap: 20px;
 }
+.comp-heading p{
+    text-align: justify;
+    width: 100%;
+    padding: 20px;
+}
+.comp-heading h4{
+    text-align: center;
+}
+.comp-heading h2{
+    text-align: center;
+}
 
 .competency-card {
     flex: 1 1 calc(45% - 20px);
@@ -1032,6 +1064,8 @@ p {
     text-align: center;
     padding: 20px;
     transition: transform 0.3s ease;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .competency-card:hover {
