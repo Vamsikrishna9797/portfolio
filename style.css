@@ -378,6 +378,7 @@ h3{
     align-items: center;
     position: relative;
     text-align: center; /* Centers content */
+    margin-bottom: 8rem;
 
   }
   
@@ -528,7 +529,7 @@ h3{
 }
 .project-box>i{
     font-size: 50px;
-    color: #00B5E7;
+    color: RED;
     margin-bottom: 25px;
 }
 .project-box label{
@@ -539,7 +540,7 @@ h3{
     content: "";
     position: absolute;
     bottom: -100%;
-    background: var(--second-color);
+    background:#4682B4;
     width: 100%;
     height: 100%;
     transition: .4s;
