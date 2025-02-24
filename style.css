@@ -335,6 +335,9 @@ h3{
 }
 
 /* ----- ABOUT INFO ----- */
+.section-text p{
+    margin-top: -15%;
+}
 
 
   
@@ -850,7 +853,12 @@ footer{
     gap: 20px;
     padding-top: 20px;
 }
-
+.work-experience-header h2{
+    margin-left: 30%;
+}
+.work-experience-header p{
+    margin-left: 20%;
+}
 .work-experience-card {
     background-color: #fff;
     padding: 20px;
